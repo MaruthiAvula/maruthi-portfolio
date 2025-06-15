@@ -1,0 +1,355 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  font-family: system-ui;
+  background: #f06d06;
+  color: white;
+  text-align: center;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: #5e60ce;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+.profile-img {
+  width: 120px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px;
+}
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  body {
+    font-size: 16px;
+  }
+
+  .profile-img {
+    width: 100px;
+    height: 100px;
+  }
+}
+.btn {
+  display: block;
+  background-color: #5e60ce;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 20px auto;
+  width: fit-content;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #4a4fd4;
+}
+.hero-heading {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #5e60ce;
+  margin-top: 40px;
+  line-height: 1.4;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #4a4fd4;
+}
+
+.wave {
+  font-size: 2rem;
+  display: inline-block;
+  animation: waveAnim 2s infinite;
+  transform-origin: 70% 70%;
+}
+
+@keyframes waveAnim {
+  0% { transform: rotate(0deg); }
+  15% { transform: rotate(14deg); }
+  30% { transform: rotate(-8deg); }
+  40% { transform: rotate(14deg); }
+  50% { transform: rotate(-4deg); }
+  60% { transform: rotate(10deg); }
+  70% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+  .hero-heading {
+    font-size: 1.8rem;
+  }
+
+  .name {
+    font-size: 1.3rem;
+  }
+
+  .wave {
+    font-size: 1.5rem;
+  }
+}
+.hero-heading {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #5e60ce;
+  margin-top: 40px;
+  line-height: 1.4;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #4a4fd4;
+}
+
+.wave {
+  font-size: 2rem;
+  display: inline-block;
+  animation: waveAnim 2s infinite;
+  transform-origin: 70% 70%;
+}
+
+@keyframes waveAnim {
+  0% { transform: rotate(0deg); }
+  15% { transform: rotate(14deg); }
+  30% { transform: rotate(-8deg); }
+  40% { transform: rotate(14deg); }
+  50% { transform: rotate(-4deg); }
+  60% { transform: rotate(10deg); }
+  70% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@media (max-width: 600px) {
+  .hero-heading {
+    font-size: 1.8rem;
+  }
+
+  .name {
+    font-size: 1.3rem;
+  }
+
+  .wave {
+    font-size: 1.5rem;
+  }
+}
+.hero-section {
+  background: linear-gradient(135deg, #f0f4ff, #e0e7ff);
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.about-section {
+  background-color: #fff;
+  padding: 40px 20px;
+}
+
+.projects-section {
+  background: linear-gradient(135deg, #e0ffe0, #ccf5cc);
+  padding: 40px 20px;
+}
+
+.contact-section {
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+}
+
+/* Optional: style each section's heading */
+section h2 {
+  color: #444;
+  margin-bottom: 15px;
+}
+.hero-section {
+  background: linear-gradient(135deg, #f0f4ff, #e0e7ff);
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.about-section {
+  background-color: #ffffff;
+  padding: 40px 20px;
+}
+
+.projects-section {
+  background: linear-gradient(135deg, #e0ffe0, #ccf5cc);
+  padding: 40px 20px;
+}
+
+.contact-section {
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+}
+
+section h2 {
+  color: #444;
+  margin-bottom: 15px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+}
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  display: inline-block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background: #4a4fd4;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+}
+
+/* Section Styling */
+.hero-section {
+  background: linear-gradient(135deg, #f0f4ff, #e0e7ff);
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.about-section {
+  background-color: #ffffff;
+  padding: 40px 20px;
+}
+
+.projects-section {
+  background: linear-gradient(135deg, #e0ffe0, #ccf5cc);
+  padding: 40px 20px;
+}
+
+.contact-section {
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+}
+
+section h2 {
+  color: #444;
+  margin-bottom: 15px;
+}
+
+/* Image and Button */
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  display: inline-block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background: #4a4fd4;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.profile-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 20px auto;
+  display: block;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  .btn {
+    width: 80%;
+    font-size: 16px;
+  }
+
+  section {
+    padding: 30px 15px;
+  }
+}
+.navbar {
+  background-color: #333;
+  text-align: center;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+.hero-section {
+  background: linear-gradient(to right, #e0e7ff, #f0f4ff);
+}
+
+.projects-section {
+  background: linear-gradient(to right, #d0f0d0, #f0fff0);
+}
+html {
+  scroll-behavior: smooth;
+}
+html {
+  scroll-behavior: smooth;
+}
